@@ -7,7 +7,7 @@
     - Kunci Publik SSH: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAoCOSpqMm/RoA6azCa+D1bWeM2rSIjX6eH+MrNUibWG harsxv`
     - Kota: Denpasar
 - Bagus Kusuma Loka <baguskusumaloka@gmail.com> (sugaB)
-    - Telegram: kusuma_loka 
+    - Telegram: kusuma_loka
     - Kunci Publik GPG: `AF58BB7FAB67E04AE28E792F6C61266D15704311`
     - Kunci Publik SSH: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICcWVHLEo8DptNsLUoqma10tw1pKITOXjNFqlzfJSwVX github-key`
     - Kota: Jakarta
@@ -23,7 +23,7 @@
     - Kunci Publik GPG: `49B36F6B84BFA2CA15C59E405B61512AE4ABAEBF`
     - Kunci Publik SSH: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOC5BcMaChF1+cU/nQ9nQ4esZjg/u3cVpQ7MwS41eoE5 janspurba64@gmail.com`
     - Kota: Surabaya
- 
+
 ## Riset dan Pengembangan
 - Atqa Munzir Zakaria <atqamz@gmail.com> (Atqa)
     - Telegram: atqamz
@@ -40,3 +40,5 @@
     - Kunci Publik GPG: `D7C8687CA30BF7C07A776473C55FF431E2978972`
     - Kunci Publik SSH: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF3CK6yO53fE/Cc5116jrf/sAw8c37+3Ikvt2frFEb8G fathur.fathur7@gmail.com`
     - Kota: Bandung
+- Foobar
+    - Booba
