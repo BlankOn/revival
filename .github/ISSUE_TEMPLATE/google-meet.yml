@@ -10,11 +10,13 @@ body:
     id: title
     attributes:
       label: "Judul Materi"
+    validations:
       required: true
   - type: textarea
     id: description
     attributes:
       label: "Deskripsi"
+    validations:
       required: true
   - type: input
     id: date
