@@ -8,8 +8,8 @@
     - Kota: Denpasar
 - Bagus Kusuma Loka <baguskusumaloka@gmail.com> (sugaB)
     - Telegram: kusuma_loka
-    - Kunci Publik GPG: `AF58BB7FAB67E04AE28E792F6C61266D15704311`
-    - Kunci Publik SSH: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICcWVHLEo8DptNsLUoqma10tw1pKITOXjNFqlzfJSwVX github-key`
+    - Kunci Publik GPG: `C88E26441A0BF1ECF54C44B8BAEC7EAAD0429325`
+    - Kunci Publik SSH: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMLMteAnAvOvzcAvdXnfKf4qEveSCFbaXMRhWojmUiLo baguskusumaloka@gmail.com`
     - Kota: Jakarta
 - Firmansyah Dzakwan Arifien <fdzak01@gmail.com> (Dzakwan)
     - Telegram: fdzak01
