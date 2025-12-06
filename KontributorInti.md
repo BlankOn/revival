@@ -33,6 +33,11 @@
     - Kunci Publik GPG: `9D49D68F7A3E36893C188ADF519A3CA248585B76`
     - Kunci Publik SSH: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ37SITWqtOptfdAO1aNaDsvqPiA3S9qqzm2vJpAXKwU raffifu`
     - Kota: Surabaya
+- Mohammad Raska <hey@raska.id> (Raska)
+    - Telegram: mraskaa
+    - Kunci Publik GPG: `536131E774B834A0E9A94341ADAFFEA5A9CBBAB8`
+    - Kunci Publik SSH: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAz07e4ZUjccU91kym0/PvlNRi6EVyfKCuaT4m+pu1uj Adekabang`
+    - Kota: Jakarta
 
 ## Riset dan Pengembangan
 - Atqa Munzir Zakaria <atqamz@gmail.com> (Atqa)
