@@ -22,10 +22,12 @@ jobs:
             }
 
             const title = extractValue(/### Judul Materi\s*\n\s*(.*)/);
+            const speaker = extractValue(/### Pemateri\s*\n\s*(.*)/) || "TBA";
             const description = extractValue(/### Deskripsi\s*\n\s*([\s\S]*?)(?=\n###|$)/) || "";
             const dateStr = extractValue(/### Tanggal\s*\n\s*(.*)/);
             const timeStr = extractValue(/### Jam Mulai \(WIB\)\s*\n\s*(.*)/);
             const durationStr = extractValue(/### Durasi\s*\n\s*(.*)/);
+            const customLocation = extractValue(/### Lokasi \/ Link Meeting\s*\n\s*(.*)/);
 
             if (!title || !dateStr || !timeStr || !durationStr) {
               console.log("Required fields missing in issue body.");
@@ -43,7 +45,7 @@ jobs:
             const year = parseInt(dateParts[2], 10);
 
             // Parse Time (HH:mm)
-            const timeParts = timeStr.split(':');
+            const timeParts = timeStr.replace(' WIB', '').trim().split(':');
             const hour = parseInt(timeParts[0], 10);
             const minute = parseInt(timeParts[1], 10);
 
@@ -67,13 +69,13 @@ jobs:
 
             const startISO = formatGoogleDate(startDate);
             const endISO = formatGoogleDate(endDate);
-            const location = "https://meet.google.com/hqb-fymu-dgu";
+            const location = customLocation && customLocation !== "_No response_" ? customLocation : "https://meet.google.com/hqb-fymu-dgu";
 
             // Generate Google Calendar Link
             const googleUrl = new URL("https://calendar.google.com/calendar/render");
             googleUrl.searchParams.append("action", "TEMPLATE");
             googleUrl.searchParams.append("text", title);
-            googleUrl.searchParams.append("details", description);
+            googleUrl.searchParams.append("details", `Speaker: ${speaker}\n\n${description}`);
             googleUrl.searchParams.append("location", location);
             googleUrl.searchParams.append("dates", `${startISO}/${endISO}`);
 
@@ -82,7 +84,7 @@ jobs:
             const agicalUrl = new URL("https://agical.io/");
             agicalUrl.searchParams.append("format", "ics");
             agicalUrl.searchParams.append("subject", title);
-            agicalUrl.searchParams.append("description", description);
+            agicalUrl.searchParams.append("description", `Speaker: ${speaker}\n\n${description}`);
             agicalUrl.searchParams.append("location", location);
             agicalUrl.searchParams.append("dtstart", startDate.toISOString());
             agicalUrl.searchParams.append("dtend", endDate.toISOString());
@@ -96,6 +98,7 @@ jobs:
 
             **Event Details:**
             - **Topic:** ${title}
+            - **Speaker:** ${speaker}
             - **Time:** ${dateStr} at ${timeStr} WIB
             - **Location:** ${location}
             `;

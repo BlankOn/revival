@@ -10,11 +10,21 @@ body:
     id: title
     attributes:
       label: "Judul Materi"
+    validations:
       required: true
+  - type: input
+    id: speaker
+    attributes:
+      label: "Pemateri"
+      description: "Nama pemateri (GitHub username atau nama lengkap)"
+      placeholder: "@username"
+    validations:
+      required: false
   - type: textarea
     id: description
     attributes:
       label: "Deskripsi"
+    validations:
       required: true
   - type: input
     id: date
@@ -24,16 +34,12 @@ body:
       description: "Format: DD-MM-YYYY (Contoh: 25-12-2023)"
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: time
     attributes:
       label: "Jam Mulai (WIB)"
-      options:
-        - "19:00"
-        - "19:30"
-        - "20:00"
-        - "20:30"
-        - "21:00"
+      placeholder: "HH:mm"
+      description: "Format: HH:mm (Contoh: 19:30)"
     validations:
       required: true
   - type: dropdown
@@ -46,3 +52,11 @@ body:
         - "2 Jam"
     validations:
       required: true
+  - type: input
+    id: location
+    attributes:
+      label: "Lokasi / Link Meeting"
+      description: "Kosongkan jika menggunakan link default (Google Meet)"
+      placeholder: "https://..."
+    validations:
+      required: false
