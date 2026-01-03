@@ -16,7 +16,7 @@ We will have `live-image-amd64.hybrid.iso` ready to boot.
 
 # BlankOn Live Build
 
-Currently the BlanKon Live Build config only tested with live-build version `20230502` or commit sha on `dd916ac5be9428ff79a28fb6343f5d244acca438`.
+Currently the BlankOn Live Build config only tested with live-build version `20230502` or commit sha on `dd916ac5be9428ff79a28fb6343f5d244acca438`.
 
 Git repository: https://github.com/BlankOn/blankon-live-build/
 
