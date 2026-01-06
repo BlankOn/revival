@@ -50,3 +50,9 @@ If there is an important bug or security issues within the package in the ISO im
 ## Start over a new arsip-dev for the next release
 
 Back to `Repository Initialization and Sync` section. Repeat.
+
+---
+
+## Support
+
+Default support is 1 year (12 months). This can be extended until the next release is ready. The support will remain 1 year even if the next release is released before 1 year has elapsed.
