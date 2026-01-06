@@ -39,7 +39,13 @@ Requirement / metric:
 
 ## 6. Sync arsip-dev.blankonlinux.id to arsip.blankonlinux.id
 
+### Internal
+
 The target repo should be fully synced with reprepro metadata being carried. It should be able to be remanaged with reprepro to inject security update later.
+
+### External
+
+Coordinate with mirror maintainers to sync our new repository.
 
 ## 7. Final Release
 
