@@ -1,20 +1,24 @@
 # Release Cycle
 
-## Repository Initialization and Sync
+## 0. Repository Initialization and Sync
 
 Please refer to IRGSH documentation.
 
-## Live Build configuration
+## 1. Live Build configuration
 
 Please refer to https://github.com/BlankOn/revival/blob/main/DebianLiveBuild.md
 
-## Alpha
+## 2. Alpha Release
+
+We may have multiple alpha release, like Alpha 1, Alpha 2.
 
 Requirement / metric:
 1. The distro can be installed.
 2. Branding is not a priority.
 
-## Beta
+## 3. Beta Release
+
+We may have multiple beta release, like Beta 1, Beta 2.
 
 Requirement / metric:
 1. The distro can be installed.
@@ -22,9 +26,9 @@ Requirement / metric:
 3. There may be some bugs.
 4. Old release could be upgraded to new release without problem.
 
-## Release Candidate
+## 4. Release Candidate (RC)
 
-At this point, we need to freeze the development repo (arsip-dev) by disabling synchronization against Sid. This will ensure no more bugs are introduced by new packages from Sid.
+At this point, we need to freeze the development repo (arsip-dev) by disabling synchronization against Sid. This will ensure no more bugs are introduced by new packages from Sid. We may have multiple RC release, like RC 1, RC 2.
 
 Requirement / metric:
 1. The distro can be installed.
@@ -33,11 +37,11 @@ Requirement / metric:
 4. Old release could be upgraded to new release without problem.
 5. Tested thoughtfully by core contributors.
 
-## Sync arsip-dev.blankonlinux.id to arsip.blankonlinux.id
+## 6. Sync arsip-dev.blankonlinux.id to arsip.blankonlinux.id
 
 The target repo should be fully synced with reprepro metadata being carried. It should be able to be remanaged with reprepro to inject security update later.
 
-## Release
+## 7. Final Release
 
 Requirement / metric:
 1. The distro can be installed.
@@ -46,10 +50,11 @@ Requirement / metric:
 4. Change repository address from arsip-dev.blankonlinux.id to arsip.blankonlinux.id.
 5. Tested thoughtfully on many devices and by public users.
 
-## Fixes Release
+## 8. Fixes Release
 
 If there is an important bug or security issues within the package in the ISO images, then we will release new ISO image with minor version being increased, e.g. from v12.0 to v12.1.
-## Start over a new arsip-dev for the next release
+
+## 9. Start over a new arsip-dev for the next release
 
 Back to `Repository Initialization and Sync` section. Repeat.
 
