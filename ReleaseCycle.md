@@ -20,6 +20,7 @@ Requirement / metric:
 1. The distro can be installed.
 2. Branding should be done.
 3. There may be some bugs.
+4. Old release could be upgraded to new release without problem.
 
 ## Release Candidate
 
@@ -29,7 +30,8 @@ Requirement / metric:
 1. The distro can be installed.
 2. Branding should be done.
 3. No or minimum bug on the core apps.
-4. Tested thoughtfully by core contributors.
+4. Old release could be upgraded to new release without problem.
+5. Tested thoughtfully by core contributors.
 
 ## Sync arsip-dev.blankonlinux.id to arsip.blankonlinux.id
 
