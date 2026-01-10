@@ -15,3 +15,5 @@
 ## PopOS
 
 ## Omarchy
+
+## KaliLinux
