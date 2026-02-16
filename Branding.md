@@ -10,6 +10,13 @@ This document needs to be improved to be a guide on how to do the rebranding, no
   - GNOME Settings's logo (still using Debian)
 - Repositories - Please see the configuration in https://github.com/BlankOn/blankon-live-build/ - low prio
 
+## Live System
+1. There are some rebranding attempts in live-build (https://github.com/BlankOn/blankon-live-build), including:
+  - The GRUB background: `config/includes.chroot/usr/share/backgrounds/blankon/grub-splash.svg`
+  - Distro branding in:
+    - `config/binary`
+    - `config/bootstrap
+
 ## Installer
 
 1. Calamares icon
@@ -19,10 +26,10 @@ This document needs to be improved to be a guide on how to do the rebranding, no
 5. ?
 
 ## Desktop
-1. `desktop-base` - Distro specific configuration for desktop, like wallpaper, logo, default user profile, etc. ✅ by Han
-  - Live session booting background
-  - Desktop background
-    - Reuse this background from Tambora release: https://github.com/BlankOn/blankon-tambora-kesenian/blob/master/gambar-latar/piko/bukit.png
-  - Default user profile image
-2. GDM background ???
-3. ?
+1. `desktop-base` (https://github.com/blankon-packages/desktop-base) - Distro specific configuration for desktop, like wallpaper, logo, default user profile, etc. ✅ by Han
+  - `verbeek-theme` - Debian has multiple themes in this package to represent their releases including the legacy ones. We just need to maintain one theme for current release. They are including:
+    - Default wallpaper: `verbeek-theme/wallpaper`
+    - GRUB related theme / background image: `verbeek-theme/grub`
+    - GDM: `verbeek-theme/login`
+  - `defaults`
+    - Default profile picture: defaults/common/etc/skel/.face (in SVG format)
