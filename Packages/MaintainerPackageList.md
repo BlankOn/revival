@@ -6,6 +6,8 @@
 
 ## desktop-base
 
+## plymouth-theme-blankon
+
 ## blankon-wallpapers
 
 ## calamares-settings-blankon
