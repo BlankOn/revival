@@ -6,6 +6,8 @@
 
 ## desktop-base
 
+## blankon-wallpapers
+
 ## calamares-settings-blankon
 
 ## praya-gnome-shell-extension
