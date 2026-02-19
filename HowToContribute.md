@@ -6,7 +6,7 @@ The quickest way to start contributing is by joining our Telegram group (https:/
 
 If you believe you can commit to the project as a serious long-term side endeavor, either as a Core Contributor or a Mentee. please send an email to blankon-dev@googlegroups.com.
 
-We will arrange a meeting to exchange expectations, discuss responsibilities, and ensure mutual understanding about the project’s direction and your potential role within it.
+We will arrange a meeting to exchange expectations, discuss responsibilities, and ensure mutual [understanding about the project's direction](https://github.com/BlankOn/revival/blob/main/Goals.md) and your potential role within it.
 
 For further explanation about contributor categories and their contribution areas, please see the sections below.
 
@@ -19,6 +19,8 @@ Regardless of their level of involvement, all contributors are valued and will b
 Core Contributors are individuals who are committed to the project for the long term. They carry greater responsibilities to ensure the project runs effectively and remains sustainable.
 
 Core Contributors often serve as mentors to mentees, providing guidance, leadership, and direction. They typically demonstrate strong ownership, clarity of purpose, initiative, and a high level of accountability.
+
+List of current core contributors: https://github.com/BlankOn/revival/blob/main/CoreContributors.md
 
 ### Mentee
 
