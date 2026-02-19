@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-The quickest way to start contributing is by joining our Telegram group. Follow the ongoing discussions, understand the current priorities, and take action to help the team as a Freelance Contributor.
+The quickest way to start contributing is by joining our Telegram group (https://t.me/BlankOnLinux/51909). Follow the ongoing discussions, understand the current priorities, and take action to help the team as a Freelance Contributor.
 
 If you believe you can commit to the project as a serious long-term side endeavor, either as a Core Contributor or a Mentee. please send an email to blankon-dev@googlegroups.com.
 
