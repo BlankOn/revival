@@ -14,8 +14,9 @@ desktop-base hold
 ### 2. Take a snapshot first as backup
 
 ```
-cd /var/lib/irgsh/repo/verbeek/ && sudo GNUPG_HOME=/var/lib/irgsh/gnupg reprepro gensnapshot verbeek snapshot_name_with_date
+cd /var/lib/irgsh/repo/verbeek/ && sudo GNUPG_HOME=/var/lib/irgsh/gnupg reprepro gensnapshot verbeek 20260219-1255
 ```
+The snapshot is located in `www/dists/verbeek//snapshots/`
 
 ### 3. Sync
 
@@ -28,7 +29,7 @@ cd /var/lib/irgsh/repo/verbeek && sudo irgsh-repo -c /etc/irgsh/config.yaml sync
 
 Try to rollback,
 ```
-cd /var/lib/irgsh/repo/verbeek/ && sudo GNUPG_HOME=/var/lib/irgsh/gnupg reprepro copysnapshot verbeek verbeek snapshot_name_with_date
+cd /var/lib/irgsh/repo/verbeek/ && sudo GNUPG_HOME=/var/lib/irgsh/gnupg reprepro restore verbeek 20260219-1255 '*'
 ```
 
 ## Force remove a particular package
