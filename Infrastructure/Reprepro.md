@@ -2,6 +2,10 @@
 
 ## Sync Procedure (pull from upstream)
 
+### 0. Make sure that we have enough free space
+
+Available free space should be more than half of the current repository size. If you are adding more architecture, then you need twice the current size.
+
 ### 1. We should blacklist some packages, especially that related to rebranding. Please edit `cat conf/blacklist.pkg` file in this format:
 ```
 base-files hold
