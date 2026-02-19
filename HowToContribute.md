@@ -34,8 +34,7 @@ Freelance Contributors are individuals who contribute to the project on a flexib
 
 ## Team / Contribution Areas
 
-
-There is no dedicated Documentation Team. Every team is responsible for documenting their own activities, challenges, and achievements as part of their contribution to the project.
+There is no dedicated Documentation Team. Every team is responsible for documenting their own activities, challenges, and achievements to this wiki, as part of their contribution to the project.
 
 ### Package Maintainer
 
