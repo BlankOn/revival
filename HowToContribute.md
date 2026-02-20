@@ -30,7 +30,7 @@ Over time, a mentee may graduate and potentially become a Core Contributor based
 
 ### Freelance Contributor
 
-Freelance Contributors are individuals who contribute to the project on a flexible, non-committed basis. They may join and leave as needed, without long-term responsibilities.
+Freelance Contributors are individuals who contribute to the project on a flexible, non-committed basis. They may join and leave as needed, without long-term responsibilities. Getting involved is easy, contribution is just one pull request away.
 
 ## Team / Contribution Areas
 
