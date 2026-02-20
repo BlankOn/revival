@@ -14,7 +14,11 @@ Offer users meaningful options to customize their experience, ensuring flexibili
 
 Strive to find a balance between the traditional desktop metaphor and modern UI/UX approaches, combining familiarity with contemporary design practices.
 
-### 4. Listen to Users
+### 4. Accessibility
+
+The interface must have option to be usable by as many people as possible, regardless of ability, device, or environment.
+
+### 5. Listen to Users
 
 Actively gather feedback and continuously improve the product based on real user needs and experiences. Design decisions should be informed by user voices, not assumptions.
 
