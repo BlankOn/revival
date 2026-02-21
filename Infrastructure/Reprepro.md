@@ -36,6 +36,29 @@ Try to rollback,
 cd /var/lib/irgsh/repo/verbeek/ && sudo GNUPG_HOME=/var/lib/irgsh/gnupg reprepro restore verbeek 20260219-1255 '*'
 ```
 
+## Repair reprepro database
+
+It usually happens when the inject/export process is terminated in the middle, which causes the database to become corrupted.
+
+The error,
+```
+##### Injecting the deb files from artifact to the repository
+##### RUN mkdir -p /var/lib/irgsh/repo/verbeek && cd /var/lib/irgsh/repo/verbeek/ && \
+	GNUPGHOME=/var/lib/irgsh/gnupg reprepro -v -v -v --nothingiserror --component main includedeb verbeek /var/lib/irgsh/repo/artifacts/2026-02-21-115501_cc3d4514-68eb-4703-ac0b-0102b6e128f0_DCE16C7A2805D4F8FCFF2C40FDF9557305CC097B_praya-gnome-shell-extension/*.deb
+Internal error of the underlying BerkeleyDB database:
+Within references.db subtable references at put: BDB0067 DB_KEYEXIST: Key/data pair already exists
+Internal error of the underlying BerkeleyDB database:
+Within references.db subtable references at put: BDB0067 DB_KEYEXIST: Key/data pair already exists
+There have been errors!
+[ REPO FAILED ] Failed to inject deb files: exit status 255
+```
+
+You can repair it with check, it will scan the whole paths and reindex the checksum (if missing).
+```
+cd /var/lib/irgsh/repo/verbeek
+sudo GNUPG_HOME=/var/lib/irgsh/gnupg reprepro -Vb . check
+```
+
 ## Force remove a particular package
 
 ```
