@@ -53,11 +53,22 @@ There have been errors!
 [ REPO FAILED ] Failed to inject deb files: exit status 255
 ```
 
+### Solution #1: 
+
 You can repair it with check, it will scan the whole paths and reindex the checksum (if missing).
 ```
 cd /var/lib/irgsh/repo/verbeek
 sudo GNUPG_HOME=/var/lib/irgsh/gnupg reprepro -Vb . check
 ```
+
+### Solution #2: Rebuild the DB
+
+```
+mv db db_bak
+sudo GNUPGHOME=/var/lib/irgsh/gnupg reprepro -Vb . check && sudo GNUPGHOME=/var/lib/irgsh/gnupg reprepro -v -v -v export
+```
+
+Sync against upstream if necessary.
 
 ## Force remove a particular package
 
