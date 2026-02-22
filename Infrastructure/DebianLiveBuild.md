@@ -77,7 +77,7 @@ Example:
 ## Trouble Shooting Guides
 
 ### Failed to chroot
-The error that gene
+The error from live-build:
 ```
 I: Extracting tzdata...
 I: Extracting usr-is-merged...
@@ -88,7 +88,7 @@ W: See /home/user/iso/workdir/chroot/debootstrap/debootstrap.log for details
 E: An unexpected failure occurred, exiting...
 Done in 00:00:43.
 ```
-debootstrap.log does not give much clue either,
+The `debootstrap.log` does not give much clue either,
 ```
 mknod: /home/user/iso/build/chroot/dev/null: No such file or directory
 mknod: /home/user/iso/build/chroot/dev/zero: No such file or directory
