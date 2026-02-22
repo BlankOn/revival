@@ -28,6 +28,10 @@ Please see:
 
 ## plymouth-theme-blankon
 
+```
+irgsh-cli package --package https://github.com/blankon-packages/plymouth-theme-blankon.git --package-branch master --ignore-checks
+```
+
 ## blankon-wallpapers
 
 ## calamares-settings-blankon
