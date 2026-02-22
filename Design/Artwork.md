@@ -21,3 +21,5 @@ All artwork must use open and editable formats whenever possible (e.g., SVG inst
 ### 5. No Generative AI
 
 The use of generative AI for creating artwork is not permitted at this time. This policy may be reviewed and re-evaluated periodically as technology, legal considerations, and community perspectives evolve.
+
+For code contribution, please see our Artificial Intelligence Policy here: https://github.com/BlankOn/revival/blob/main/ArtificialIntelligencePolicy.md
