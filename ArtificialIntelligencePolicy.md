@@ -30,3 +30,7 @@ Penggunaan Agentic AI (AI dengan kemampuan eksekusi otomatis dan tindakan mandir
 
 1. Melakukan eksekusi pada mesin, server, atau infrastruktur milik proyek BlankOn.
 2. Digunakan dengan kredensial, token, atau kunci akses yang terkait dengan akun atau sistem dalam ekosistem BlankOn.
+
+---
+
+This policy may be reviewed and re-evaluated periodically as technology, legal considerations, and community perspectives evolve.
