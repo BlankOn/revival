@@ -36,6 +36,10 @@ irgsh-cli package --package https://github.com/blankon-packages/plymouth-theme-b
 
 ## calamares-settings-blankon
 
+```
+irgsh-cli package --package https://github.com/blankon-packages/calamares-settings-blankon.git --package-branch remove-live-user --source https://salsa.debian.org/live-team/calamares-settings-debian.git --source-branch master --ignore-checks
+```
+
 ## praya-gnome-shell-extension
 
 ```
