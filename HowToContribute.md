@@ -59,6 +59,9 @@ Handles visual identity and user-facing design elements, including UI/UX assets,
 
 Responsible for communication and community engagement. This includes managing announcements, social media, events, partnerships, and maintaining a positive public image for the project.
 
+Mentors:
+- Slamet Santoso <senyum.slamet@gmail.com>
+
 ### Quality Assurance
 
 Ensures the stability and reliability of the project through systematic testing, validation, and review processes. This includes functional testing, regression testing, bug reporting, and release validation.
