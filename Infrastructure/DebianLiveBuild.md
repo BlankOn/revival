@@ -74,6 +74,63 @@ Example:
 
 - ?
 
+## Trouble Shooting Guides
+
+### Failed to chroot
+The error that gene
+```
+I: Extracting tzdata...
+I: Extracting usr-is-merged...
+I: Extracting util-linux...
+I: Extracting zlib1g...
+W: Failure trying to run: chroot "/home/user/iso/workdir/chroot" /bin/true
+W: See /home/user/iso/workdir/chroot/debootstrap/debootstrap.log for details
+E: An unexpected failure occurred, exiting...
+Done in 00:00:43.
+```
+debootstrap.log does not give much clue either,
+```
+mknod: /home/user/iso/build/chroot/dev/null: No such file or directory
+mknod: /home/user/iso/build/chroot/dev/zero: No such file or directory
+mknod: /home/user/iso/build/chroot/dev/full: No such file or directory
+mknod: /home/user/iso/build/chroot/dev/random: No such file or directory
+mknod: /home/user/iso/build/chroot/dev/urandom: No such file or directory
+mknod: /home/user/iso/build/chroot/dev/tty: No such file or directory
+mknod: /home/user/iso/build/chroot/dev/console: No such file or directory
+chroot: failed to run command ‘/bin/true’: No such file or directory
+```
+
+The actual cause lies on missing `base-files` package. This package is blacklisted from repo. So, when we rebuild our repository (usually after corrupted incident), there will be no `base-files` package.
+
+Solution: package your `base-files` first to our repository. Please see blacklisted packages here: [https://github.com/BlankOn/revival/edit/main/Packages/MaintainerPackageList.md](https://github.com/BlankOn/revival/blob/main/Packages/MaintainerPackageList.md)
+
+### Missing blankon-keyring package
+
+The error generated from live-build:
+```
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+E: Unable to locate package blankon-keyring
+E: An unexpected failure occurred, exiting...
+P: Begin unmounting filesystems...
+P: Saving caches...
+Reading package lists...
+Building dependency tree...
+Done in 00:01:56.
+```
+
+Solution:
+
+You need to build the `blankon-keyring` package first:
+- https://github.com/BlankOn/revival/blob/main/Infrastructure/Keyring.md
+- https://github.com/blankon-packages/blankon-keyring/
+
+Then inject it to repository.
+```
+sudo GNUPGHOME=/var/lib/irgsh/gnupg reprepro -v -v -v --nothingiserror --component main includedeb verbeek ./blankon-keyring/blankon-keyring_2020.11.25-4.5*.deb
+```
+
 # References
 
 - https://www.debian.org/devel/debian-live/
