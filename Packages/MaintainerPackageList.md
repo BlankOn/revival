@@ -57,3 +57,8 @@ irgsh-cli package --package https://github.com/blankon/praya-service.git --packa
 ```
 irgsh-cli package --package https://github.com/blankon/tilingshell.git --package-branch main --ignore-checks 
 ```
+## no-overview-gnome-shell-extension
+
+```
+irgsh-cli package --package https://github.com/blankon/no-overview.git --package-branch main --ignore-checks
+```
