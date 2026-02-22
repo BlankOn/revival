@@ -10,6 +10,10 @@ irgsh-cli package --package https://github.com/blankon-packages/base-files.git -
 
 ## desktop-base (reprepro blacklist)
 
+```
+irgsh-cli package --package https://github.com/blankon-packages/desktop-base.git --package-branch master --ignore-checks
+```
+
 ## blankon-keyring
 
 Please see https://github.com/BlankOn/revival/blob/main/Infrastructure/Keyring.md
