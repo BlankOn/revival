@@ -70,6 +70,13 @@ sudo GNUPGHOME=/var/lib/irgsh/gnupg reprepro -Vb . check && sudo GNUPGHOME=/var/
 
 Sync against upstream if necessary.
 
+## Component and its Release file are exist but no package can be installed
+
+By default, reprepro pulls the package by skipping old/existing package thus they are not reindexed. This happened especially when we try to repair corrupted / broken repository. We just need to update it with `--noskipold` argument.
+```
+sudo GNUPGHOME=/var/lib/irgsh/gnupg reprepro -v -v -v -b . -A amd64 --noskipold -C restricted-firmware update verbeek
+```
+
 ## Force remove a particular package
 
 ```
