@@ -4,9 +4,9 @@
 
 The quickest way to start contributing is by joining our Telegram group (https://t.me/BlankOnLinux/51909). Follow the ongoing discussions, understand the current priorities, and take action to help the team as a Freelance Contributor.
 
-If you believe you can commit to the project as a serious long-term side endeavor, either as a Core Contributor or a Mentee. please send an email to blankon-dev@googlegroups.com.
+If you are not sure, feel free to lurking around our wiki to get better understanding of our project.
 
-We will arrange a meeting to exchange expectations, discuss responsibilities, and ensure mutual [understanding about the project's direction](https://github.com/BlankOn/revival/blob/main/Goals.md) and your potential role within it.
+If you believe you can commit to the project as a serious long-term side endeavor, either as a Core Contributor or a Mentee. please send an email to blankon-dev@googlegroups.com.We will arrange a meeting to exchange expectations, discuss responsibilities, and ensure mutual [understanding about the project's direction](https://github.com/BlankOn/revival/blob/main/Goals.md) and your potential role within it.
 
 For further explanation about contributor categories and their contribution areas, please see the sections below.
 
