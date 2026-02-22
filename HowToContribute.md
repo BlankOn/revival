@@ -40,6 +40,9 @@ There is no dedicated Documentation Team. Every team is responsible for document
 
 Responsible for maintaining, updating, and ensuring the quality of software packages within the distribution. This includes handling dependencies, security updates, bug fixes, and ensuring compatibility across releases.
 
+Mentors:
+- Herpiko Dwi Aguno <herpiko@gmail.com>
+
 ### Research and Development
 
 Focuses on innovation, experimentation, and technical exploration. This team evaluates new technologies, improves existing systems, and proposes architectural or strategic enhancements for the project.
