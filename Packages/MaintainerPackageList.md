@@ -34,6 +34,10 @@ irgsh-cli package --package https://github.com/blankon-packages/plymouth-theme-b
 
 ## blankon-wallpapers
 
+```
+irgsh-cli package --package https://github.com/blankon-packages/blankon-wallpapers.git --package-branch main --ignore-checks
+```
+
 ## calamares-settings-blankon
 
 ```
