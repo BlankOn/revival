@@ -34,6 +34,10 @@ Please see:
 
 ## praya-gnome-shell-extension
 
+```
+irgsh-cli package --package https://github.com/blankon/praya-gnome-shell-extension.git --package-branch main --ignore-checks
+```
+
 ## praya-service
 
 ## tilingshell-gnome-shell-extension
