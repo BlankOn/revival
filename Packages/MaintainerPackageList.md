@@ -53,3 +53,7 @@ irgsh-cli package --package https://github.com/blankon/praya-service.git --packa
 ```
 
 ## tilingshell-gnome-shell-extension
+
+```
+irgsh-cli package --package https://github.com/blankon/tilingshell.git --package-branch main --ignore-checks 
+```
