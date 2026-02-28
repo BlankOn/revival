@@ -39,7 +39,7 @@ sudo appstream-generator -c asgen-config.json run verbeek main
 To make it ready to be integrated with the repository, you need to publish/export it, the result will be written under `./export/` directory,
 
 ```
-sudo appstream-generator -c asgen-config.json run publish verbeek main
+sudo appstream-generator -c asgen-config.json publish verbeek main
 ```
 
 ### Integration
