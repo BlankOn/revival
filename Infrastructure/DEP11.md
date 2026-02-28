@@ -44,4 +44,16 @@ sudo appstream-generator -c asgen-config.json run publish verbeek main
 
 ### Integration
 
-TBW.
+#### Injecting and resigning into Reprepro
+
+Use the integrator script from this repository: `https://github.com/BlankOn/asgen2reprepro` to inject the generated appstream metadata to reprepro repository.
+
+```
+sudo ./integrate-dep11.sh  --basedir /var/lib/asgen/workspace --distributions /var/lib/irgsh/repo/verbeek/conf/distributions --dist /var/lib/irgsh/repo/verbeek/www/dists/verbeek --gpg-key 4ED6DAC2513877832D7B16838E50AD1822A85905
+```
+
+#### Web services
+
+There are two directories under `export` output that need to be exposed as web service:
+- `media` to be served under `MediaBaseUrl`, which is pointed at `https://arsip-dev.blankonlinux.id/media`
+- `html` to be served under `HtmlBaseUrl`, which is pointed at `https://arsip-dev.blankonlinux.id/report`
