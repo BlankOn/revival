@@ -11,8 +11,8 @@ Configuration could be written in a JSON file like this, `asgen-config.json`:
     "Backend": "debian",
     "MetadataType": "YAML",
     "OriginName": "blankon",
-    "MediaBaseUrl": "https://arsip-dev.blankonlinux.id/media",
-    "HtmlBaseUrl": "https://arsip-dev.blankonlinux.id/report",
+    "MediaBaseUrl": "https://arsip-dev.blankonlinux.id/dev/media",
+    "HtmlBaseUrl": "https://arsip-dev.blankonlinux.id/dev/report",
     "WorkspaceDir": "/var/lib/asgen/workspace",
     "ArchiveRoot": "/var/lib/irgsh/repo/verbeek/www",
     "Suites": {
