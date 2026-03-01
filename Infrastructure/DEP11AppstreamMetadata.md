@@ -67,15 +67,15 @@ At the end, we need to serve them with this structure:
 ```
 protocol://domain/path              
                     │               
-                    ├──────► /media 
+                    ├──────► /media (from appstream-generator)
                     │               
                     │               
-                    ├──────► /report
+                    ├──────► /report (from appstream-generator)
                     │               
                     │               
-                    ├──────► /dists 
+                    ├──────► /dists (from reprepro, including dep11 files from appstream-generator and re-signed Release files)
                     │               
                     │               
-                    └──────► /pool       
+                    └──────► /pool (from reprepro)
 
 ```
