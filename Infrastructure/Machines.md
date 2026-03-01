@@ -49,10 +49,29 @@
 
 ## Personal Computers to Support Developers
 
-### M920q @luckynee
+### M920q @ Lucky
 
 - Specification: Lenovo M920q (8 cores / 64GB RAM / 1TB SSD / 4x Gigabit LAN)
 - OS: -
 - Location: Medan
 - Term of service: February 05, 2026 until now
 - Ownership: Herpiko Dwi Aguno
+
+### Thinkpad C13 Yoga @ Senyum Slamet
+
+- Specification: Intel i7 gen11 8 cores, 16GB RAM, 256GB storage
+- OS: ChromeOS / Linux
+- Location: Depok
+- Ownership: BlankOn Foundation
+- Sponsorship: Utian Ayuba
+- Term of service: February 26, 2026 until now
+
+
+### Dell Latitude 5320 @ Herpiko Dwi Aguno
+
+- Specification: core i7-1185G7, 16gb ddr4 3200mhz onboard, nvme 256gb
+- OS: -
+- Location: Depok
+- Ownership: BlankOn Foundation
+- Sponsorship: Utian Ayuba
+- Term of service: February 26, 2026 until now
