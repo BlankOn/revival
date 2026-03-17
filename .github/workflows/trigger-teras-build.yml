@@ -1,0 +1,17 @@
+name: Trigger Teras Docker Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch build event to Teras
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.TERAS_DISPATCH_TOKEN }}
+          repository: BlankOn/Teras
+          event-type: revival-updated
