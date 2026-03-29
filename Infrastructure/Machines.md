@@ -39,7 +39,7 @@
 
 ### raska
 
-- Purposes: Proxmox Backup Service and compute (build)
+- Purposes: Proxmox Backup Service and compute (package and ISO build)
 - Specification: amd64, 56 cores, 500GB RAM, 4.34TB storage
 - OS: Proxmox 9.1.2
 - Location: Unknown
@@ -57,21 +57,21 @@
 - Term of service: February 05, 2026 until now
 - Ownership: Herpiko Dwi Aguno
 
-### Thinkpad C13 Yoga @ Senyum Slamet
+### Thinkpad C13 Yoga @ Herpiko Dwi Aguno
 
 - Specification: Intel i7 gen11 8 cores, 16GB RAM, 256GB storage
 - OS: ChromeOS / Linux
 - Location: Depok
 - Ownership: BlankOn Foundation
-- Sponsorship: Utian Ayuba
+- Donor: Utian Ayuba
 - Term of service: February 26, 2026 until now
 
 
-### Dell Latitude 5320 @ Herpiko Dwi Aguno
+### Dell Latitude 5320 @ Slamet Santoso
 
 - Specification: core i7-1185G7, 16gb ddr4 3200mhz onboard, nvme 256gb
 - OS: -
 - Location: Depok
 - Ownership: BlankOn Foundation
-- Sponsorship: Utian Ayuba
+- Donor: Utian Ayuba
 - Term of service: February 26, 2026 until now
