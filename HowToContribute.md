@@ -47,6 +47,9 @@ Mentors:
 
 Focuses on innovation, experimentation, and technical exploration. This team evaluates new technologies, improves existing systems, and proposes architectural or strategic enhancements for the project.
 
+Mentors:
+- Herpiko Dwi Aguno <herpiko@gmail.com>
+
 ### Infrastructure
 
 Manages and maintains the technical backbone of the project, including servers, CI/CD pipelines, repositories, build systems, and deployment processes. This team ensures reliability, performance, and availability of project resources.
@@ -60,8 +63,12 @@ Handles visual identity and user-facing design elements, including UI/UX assets,
 Responsible for communication and community engagement. This includes managing announcements, social media, events, partnerships, and maintaining a positive public image for the project.
 
 Mentors:
-- Slamet Santoso <senyum.slamet@gmail.com>
+- Akhmat Safrudin (Somat) <akhmat.safrudin@gmail.com>
 
 ### Quality Assurance
 
 Ensures the stability and reliability of the project through systematic testing, validation, and review processes. This includes functional testing, regression testing, bug reporting, and release validation.
+
+Mentors:
+- Herpiko Dwi Aguno <herpiko@gmail.com>
+
