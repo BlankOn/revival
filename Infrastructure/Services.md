@@ -12,3 +12,5 @@ Services / Infrastructure that maintained by BlankOn Linux team.
 8. http://notification.blankonlinux.id
 9. https://arsip.blankonlinux.id
 10. https://arsip-dev.blankonlinux.id
+11. https://packages.blankonlinux.id
+12. https://security.blankonlinux.id
