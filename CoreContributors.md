@@ -61,5 +61,5 @@
 
 Mention all: 
 ```
-@harsxv @kusuma_loka @fdzak01 @herpiko @luckymp @raffifu @mraskaa @atqamz @ArthurKanaya @atikha_z @al1r4d @Cengkaruk @denimarswandi @senyumslamet @TreeFPV @esteween 
+@harsxv @kusuma_loka @fdzak01 @herpiko @luckymp @raffifu @mraskaa @atqamz @ArthurKanaya @al1r4d @Cengkaruk @denimarswandi @TreeFPV @esteween 
 ```
