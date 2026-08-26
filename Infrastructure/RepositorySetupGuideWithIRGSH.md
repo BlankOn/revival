@@ -1,4 +1,4 @@
-# New Repository Setup with IRGSH
+# Repository Setup Guide with IRGSH
 
 ### 1. Prepare the dependencies and getting the executable binaries of IRGSH
 
