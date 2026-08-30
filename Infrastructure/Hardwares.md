@@ -1,5 +1,7 @@
 # Hardwares
 
+Most of the hardware come from donation/sponsorships toward BlankOn Foundation, and all of them are managed by infra team of BlankOn Linux contributors.
+
 ## Servers
 
 ### rafi.blankon.id
