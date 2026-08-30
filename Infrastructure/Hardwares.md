@@ -79,9 +79,13 @@
 - Ownership: BlankOn Foundation
 - Donor: Rifki Affandi Z
 
-### 32 GB RAM
+### DDR4 RAM SODDIM 32GB 2666Mhz
 
 - Assignment: Herpiko Dwi Aguno
 - Ownership: BlankOn Foundation
 - Donor: Galeshka
+
+---
+
+If you want to donate money or hardware, please refer to <a href="https://blankon.id/en/donate" target="_blank">https://blankon.id/en/donate</a>.
 
