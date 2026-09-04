@@ -1,4 +1,4 @@
-# Maintainer Package List
+# Package List
 
 To blacklist the package, see https://github.com/BlankOn/revival/blob/main/Infrastructure/Reprepro.md
 
