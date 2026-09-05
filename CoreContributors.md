@@ -6,11 +6,6 @@
     - Kunci Publik GPG: `876675A886C18C42C38EE1A9D659B01049082CD5`
     - Kunci Publik SSH: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAoCOSpqMm/RoA6azCa+D1bWeM2rSIjX6eH+MrNUibWG harsxv`
     - Kota: Denpasar
-- Bagus Kusuma Loka <baguskusumaloka@gmail.com> (sugaB)
-    - Telegram: kusuma_loka
-    - Kunci Publik GPG: `C88E26441A0BF1ECF54C44B8BAEC7EAAD0429325`
-    - Kunci Publik SSH: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMLMteAnAvOvzcAvdXnfKf4qEveSCFbaXMRhWojmUiLo baguskusumaloka@gmail.com`
-    - Kota: Jakarta
 - Firmansyah Dzakwan Arifien <fdzak01@gmail.com> (Dzakwan)
     - Telegram: fdzak01
     - Kunci Publik GPG: `65C4F8CCA44402DDCE9EB9985F3D6D9F31A402B6`
@@ -50,16 +45,11 @@
     - Kunci Publik GPG: `D7C8687CA30BF7C07A776473C55FF431E2978972`
     - Kunci Publik SSH: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF3CK6yO53fE/Cc5116jrf/sAw8c37+3Ikvt2frFEb8G fathur.fathur7@gmail.com`
     - Kota: Bandung
-- Atikha Azmila <atikhaoffice@gmail.com> (Atikha)
-    - Telegram: atikha_z
-    - Kunci Publik GPG: `FCECBE42C321F6F5B20065335306F7E6F57CF7D1`
-    - Kunci Publik SSH: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH1h8JHk2YrDmlXQqp9PoPLIKgZuLKXX5Z2JXAArce1a atikhaoffice@gmail.com`
-    - Kota: Jakarta
 
 
 ---
 
 Mention all: 
 ```
-@harsxv @kusuma_loka @fdzak01 @herpiko @luckymp @raffifu @mraskaa @atqamz @ArthurKanaya @al1r4d @Cengkaruk @denimarswandi @TreeFPV @esteween 
+@harsxv @fdzak01 @herpiko @luckymp @raffifu @mraskaa @atqamz @ArthurKanaya @al1r4d @TreeFPV @esteween 
 ```
