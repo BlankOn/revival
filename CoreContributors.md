@@ -8,8 +8,8 @@
     - Kota: Denpasar
 - Firmansyah Dzakwan Arifien <dzakwan.corp@gmail.com> (Dzakwan)
     - Telegram: fdzak01
-    - Kunci Publik GPG: `65C4F8CCA44402DDCE9EB9985F3D6D9F31A402B6`
-    - Kunci Publik SSH: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHNEXiJMxT7AOrPtcgfeDXa0LPwKfzGAbamdUXaLslup fdzak01@gmail.com`
+    - Kunci Publik GPG: `ACCEE4B8B397CC2EF35FD56E4F158668A284AE23`
+    - Kunci Publik SSH: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB2P5H7v66C4C5osmOgz1IFfMeunj8gXEh/ByWXrvxeP dzakwan.corp@gmail.com`
     - Kota: Depok
 
 ## Package Maintainer
